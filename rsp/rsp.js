@@ -1,3 +1,4 @@
+while(true) {
 var player = prompt (" 가위,바위,보 중 한가지를 입력해주세요. ");
 var a = 0;
 
@@ -17,7 +18,7 @@ var a = 0;
     else{
         alert("잘못 입력하셧습니다")
     }
-
+}
 
 var c = Math.floor(Math.random() * 3) + 1;
     if( a == 0){
